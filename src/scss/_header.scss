@@ -35,6 +35,19 @@ header .container {
                 margin-top: 90px;
             }
         }
+
+        @media (max-width: 667px) {
+
+            img {
+                margin-left: -50%;
+                position: relative;
+                width: 230%;
+                max-width: none;
+                margin-right: -68%;
+                margin-top: 90px;
+            }
+        }
     }
 
 }
+
