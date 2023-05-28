@@ -37,7 +37,7 @@ article {
 
 }
 
-h2 {
+h3 {
     color: $font-color-primary;
     font-family: 'freshman', sans-serif;
     font-weight: 700;
@@ -56,7 +56,7 @@ footer {
 }
 
 section {
-    padding: 4rem 0;
+    padding: 5rem 0;
     margin: 0;
 }
 
@@ -64,7 +64,7 @@ section {
     display: flex;
     flex-flow: column;
     margin: 0 auto;
-    max-width: 90vw;
+    max-width: 100vw;
 }
 
 @import 'animations';

@@ -1,6 +1,6 @@
 .vitrine {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    // display: grid;
+    // grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 
     &__item {
@@ -8,10 +8,8 @@
         border-radius: 1rem;
         display: flex;
         flex-flow: column;
-        justify-content: center;
-        align-items: flex-start;
-        min-height: 20rem;
-        padding: 1rem;
+        min-height: 1rem;
+        padding: 0rem;
         position: relative;
         &:hover {
             animation: toTop;
@@ -41,13 +39,13 @@
     }
 
     &__button {
-        box-shadow: 0 0 2px 2px rgba(0,150,255,.2);
+
         background-color: $color-primary;
         border-radius: 1rem;
         border: 1px solid $color-primary;
         color: $font-color-primary;
         font-weight: bold;
-        padding: 1rem 2rem;
+        padding: 1rem 1rem;
         font-size: $font-size-default;
         text-decoration: none;
         align-self: center;
