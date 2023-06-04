@@ -7,7 +7,7 @@ header .container {
 
     .hero {
         align-items: flex-end;
-        background-image: url('../assets/images/banner-lance-me..png');
+        // background-image: url('../assets/images/banner-lance-me.png');
         background-repeat: no-repeat;
         background-position: top center;
         justify-content: center;
@@ -35,19 +35,6 @@ header .container {
                 margin-top: 90px;
             }
         }
-
-        @media (max-width: 667px) {
-
-            img {
-                margin-left: -50%;
-                position: relative;
-                width: 230%;
-                max-width: none;
-                margin-right: -68%;
-                margin-top: 90px;
-            }
-        }
     }
 
 }
-
